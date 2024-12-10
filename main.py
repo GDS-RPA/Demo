@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import cv2
 
 # 1. Load Mô Hình YOLO Đã Huấn Luyện
-model = torch.hub.load('ultralytics/yolov5', 'custom', path=r'C:\Users\Admin\Desktop\segment-anything-2\yolov5\yolov5s.pt', force_reload=True)
+model = torch.hub.load('ultralytics/yolov5', 'custom', path=r'C:\Users\Admin\Desktop\yolov5\runs\train\exp13\weights\best.pt', force_reload=True)
 model.eval()  # Chuyển mô hình sang chế độ đánh giá
 
 # 2. Load Hình Ảnh
@@ -22,7 +22,7 @@ labels = results.names  # Tên các lớp
 
 # 4. Lọc Bounding Box theo Class
 class_name = "car"  # Class mà bạn muốn hiển thị
-filtered_boxes = [box for box in boxes if labels[int(box[5])] == class_name]
+filtered_boxes = boxes
 
 # 5. Vẽ Bounding Box
 def draw_bounding_boxes(image, boxes, labels, class_name):
