@@ -1,0 +1,72 @@
+<annotation version="1.3">
+  <image>sv_nvdx_ar0138_20210514_113553.h265_ch00_007470.jpg</image>
+  <size>
+    <width>1280</width>
+    <height>960</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <labeled name="tire">1.0</labeled>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="759.26" top="334.90" right="808.78" bottom="466.38" />
+    <fitbox>
+      <point x="759.26" y="334.90" />
+      <point x="808.78" y="334.90" />
+      <point x="808.78" y="466.38" />
+      <point x="759.26" y="466.38" />
+    </fitbox>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>4</object_id>
+    <bndbox left="656.08" top="393.87" right="698.09" bottom="421.69" />
+    <fitbox>
+      <point x="656.08" y="393.87" />
+      <point x="698.09" y="393.87" />
+      <point x="698.09" y="421.69" />
+      <point x="656.08" y="421.69" />
+    </fitbox>
+    <tire>none</tire>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>van</subname>
+    <object_id>5</object_id>
+    <bndbox left="563.34" top="400.04" right="603.26" bottom="417.70" />
+    <fitbox>
+      <point x="563.34" y="400.04" />
+      <point x="603.26" y="400.04" />
+      <point x="603.26" y="417.70" />
+      <point x="563.34" y="417.70" />
+    </fitbox>
+    <tire>none</tire>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>4</object_id>
+    <bndbox left="614.73" top="390.88" right="648.15" bottom="421.57" />
+    <fitbox>
+      <point x="614.73" y="390.88" />
+      <point x="648.15" y="390.88" />
+      <point x="648.15" y="421.57" />
+      <point x="614.73" y="421.57" />
+    </fitbox>
+    <tire>none</tire>
+  </object>
+  <object>
+    <name>ignored</name>
+    <subname>ignored_vehicle</subname>
+    <object_id>2</object_id>
+    <bndbox left="341.49" top="381.32" right="476.46" bottom="437.07" />
+    <fitbox>
+      <point x="341.49" y="381.32" />
+      <point x="476.46" y="381.32" />
+      <point x="476.46" y="437.07" />
+      <point x="341.49" y="437.07" />
+    </fitbox>
+  </object>
+</annotation>

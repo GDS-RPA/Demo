@@ -1,0 +1,56 @@
+<annotation version="1.3">
+  <image>sv_nvdx_ar0138_20210514_132735.h265_ch00_009720.jpg</image>
+  <size>
+    <width>1280</width>
+    <height>960</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="815.51" top="392.40" right="830.87" bottom="436.38" />
+    <fitbox>
+      <point x="815.51" y="392.40" />
+      <point x="830.87" y="392.40" />
+      <point x="830.87" y="436.38" />
+      <point x="815.51" y="436.38" />
+    </fitbox>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="828.68" top="394.93" right="842.13" bottom="437.74" />
+    <fitbox>
+      <point x="828.68" y="394.93" />
+      <point x="842.13" y="394.93" />
+      <point x="842.13" y="437.74" />
+      <point x="828.68" y="437.74" />
+    </fitbox>
+  </object>
+  <object>
+    <name>truck</name>
+    <subname>small_truck</subname>
+    <object_id>2</object_id>
+    <bndbox left="835.28" top="388.92" right="938.65" bottom="442.16" />
+    <fitbox>
+      <point x="835.28" y="388.92" />
+      <point x="938.65" y="388.92" />
+      <point x="938.65" y="442.16" />
+      <point x="835.28" y="442.16" />
+    </fitbox>
+  </object>
+  <object>
+    <name>truck</name>
+    <subname>large_truck</subname>
+    <object_id>3</object_id>
+    <bndbox left="682.38" top="384.93" right="817.86" bottom="434.88" />
+    <fitbox>
+      <point x="682.38" y="384.93" />
+      <point x="817.86" y="384.93" />
+      <point x="817.86" y="434.88" />
+      <point x="682.38" y="434.88" />
+    </fitbox>
+  </object>
+</annotation>

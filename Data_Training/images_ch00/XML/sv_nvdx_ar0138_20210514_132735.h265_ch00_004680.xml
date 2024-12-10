@@ -1,0 +1,68 @@
+<annotation version="1.3">
+  <image>sv_nvdx_ar0138_20210514_132735.h265_ch00_004680.jpg</image>
+  <size>
+    <width>1280</width>
+    <height>960</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>4</object_id>
+    <bndbox left="182.17" top="432.88" right="241.05" bottom="461.98" />
+    <fitbox>
+      <point x="182.17" y="432.88" />
+      <point x="241.05" y="432.88" />
+      <point x="241.05" y="461.98" />
+      <point x="182.17" y="461.98" />
+    </fitbox>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>4</object_id>
+    <bndbox left="309.88" top="363.00" right="514.10" bottom="470.10" />
+    <fitbox>
+      <point x="309.88" y="363.00" />
+      <point x="514.10" y="363.00" />
+      <point x="514.10" y="470.10" />
+      <point x="309.88" y="470.10" />
+    </fitbox>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="876.55" top="375.09" right="909.93" bottom="450.92" />
+    <fitbox>
+      <point x="876.55" y="375.09" />
+      <point x="909.93" y="375.09" />
+      <point x="909.93" y="450.92" />
+      <point x="876.55" y="450.92" />
+    </fitbox>
+  </object>
+  <object>
+    <name>truck</name>
+    <subname>small_truck</subname>
+    <object_id>2</object_id>
+    <bndbox left="0.00" top="371.86" right="139.16" bottom="520.62" />
+    <fitbox>
+      <point x="0.00" y="371.86" />
+      <point x="139.16" y="371.86" />
+      <point x="139.16" y="520.62" />
+      <point x="0.00" y="520.62" />
+    </fitbox>
+  </object>
+  <object>
+    <name>bus</name>
+    <subname>bus</subname>
+    <object_id>3</object_id>
+    <bndbox left="250.64" top="356.03" right="412.15" bottom="450.76" />
+    <fitbox>
+      <point x="250.64" y="356.03" />
+      <point x="412.15" y="356.03" />
+      <point x="412.15" y="450.76" />
+      <point x="250.64" y="450.76" />
+    </fitbox>
+  </object>
+</annotation>

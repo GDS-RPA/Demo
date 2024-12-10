@@ -1,0 +1,131 @@
+<annotation version="1.3">
+  <image>sv_nvdx_ar0138_20210514_121737.h265_ch00_000660.jpg</image>
+  <size>
+    <width>1280</width>
+    <height>960</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <labeled name="tire">1.0</labeled>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="635.67" top="375.53" right="658.03" bottom="431.85" />
+    <fitbox>
+      <point x="635.67" y="375.53" />
+      <point x="658.03" y="375.53" />
+      <point x="658.03" y="431.85" />
+      <point x="635.67" y="431.85" />
+    </fitbox>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="654.67" top="378.04" right="673.24" bottom="431.50" />
+    <fitbox>
+      <point x="654.67" y="378.04" />
+      <point x="673.24" y="378.04" />
+      <point x="673.24" y="431.50" />
+      <point x="654.67" y="431.50" />
+    </fitbox>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>10</object_id>
+    <bndbox left="788.66" top="388.66" right="806.20" bottom="444.93" />
+    <fitbox>
+      <point x="788.66" y="388.66" />
+      <point x="806.20" y="388.66" />
+      <point x="806.20" y="444.93" />
+      <point x="788.66" y="444.93" />
+    </fitbox>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>10</object_id>
+    <bndbox left="622.04" top="395.37" right="643.52" bottom="413.83" />
+    <fitbox>
+      <point x="622.04" y="395.37" />
+      <point x="643.52" y="395.37" />
+      <point x="643.52" y="413.83" />
+      <point x="622.04" y="413.83" />
+    </fitbox>
+    <tire>none</tire>
+  </object>
+  <object>
+    <name>rider</name>
+    <subname>motorcycle_without_human</subname>
+    <object_id>2</object_id>
+    <bndbox left="933.19" top="399.78" right="1132.30" bottom="554.63" />
+    <fitbox>
+      <point x="933.19" y="399.78" />
+      <point x="1132.30" y="399.78" />
+      <point x="1132.30" y="554.63" />
+      <point x="933.19" y="554.63" />
+    </fitbox>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>10</object_id>
+    <bndbox left="748.13" top="385.77" right="768.89" bottom="436.15" />
+    <fitbox>
+      <point x="748.13" y="385.77" />
+      <point x="768.89" y="385.77" />
+      <point x="768.89" y="436.15" />
+      <point x="748.13" y="436.15" />
+    </fitbox>
+  </object>
+  <object>
+    <name>ignored</name>
+    <subname>ignored_vehicle</subname>
+    <object_id>10</object_id>
+    <bndbox left="424.70" top="363.76" right="541.69" bottom="411.52" />
+    <fitbox>
+      <point x="424.70" y="363.76" />
+      <point x="541.69" y="363.76" />
+      <point x="541.69" y="411.52" />
+      <point x="424.70" y="411.52" />
+    </fitbox>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>van</subname>
+    <object_id>5</object_id>
+    <bndbox left="672.94" top="375.61" right="745.95" bottom="437.50" />
+    <fitbox>
+      <point x="672.94" y="375.61" />
+      <point x="745.95" y="375.61" />
+      <point x="745.95" y="437.50" />
+      <point x="672.94" y="437.50" />
+    </fitbox>
+    <tire>none</tire>
+  </object>
+  <object>
+    <name>ignored</name>
+    <subname>ignored_vehicle</subname>
+    <object_id>10</object_id>
+    <bndbox left="1249.93" top="380.54" right="1280.00" bottom="518.73" />
+    <fitbox>
+      <point x="1249.93" y="380.54" />
+      <point x="1280.00" y="380.54" />
+      <point x="1280.00" y="518.73" />
+      <point x="1249.93" y="518.73" />
+    </fitbox>
+  </object>
+  <object>
+    <name>ignored</name>
+    <subname>ignored_vehicle</subname>
+    <object_id>10</object_id>
+    <bndbox left="401.36" top="360.14" right="523.41" bottom="411.70" />
+    <fitbox>
+      <point x="401.36" y="360.14" />
+      <point x="523.41" y="360.14" />
+      <point x="523.41" y="411.70" />
+      <point x="401.36" y="411.70" />
+    </fitbox>
+  </object>
+</annotation>

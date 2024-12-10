@@ -1,0 +1,80 @@
+<annotation version="1.3">
+  <image>sv_nvdx_ar0138_20210513_160042.h265_ch00_048180.jpg</image>
+  <size>
+    <width>1280</width>
+    <height>960</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <object>
+    <name>truck</name>
+    <subname>small_truck</subname>
+    <object_id>6</object_id>
+    <bndbox left="429.46" top="379.74" right="526.55" bottom="444.27" />
+    <fitbox>
+      <point x="429.46" y="379.74" />
+      <point x="526.55" y="379.74" />
+      <point x="526.55" y="444.27" />
+      <point x="429.46" y="444.27" />
+    </fitbox>
+  </object>
+  <object>
+    <name>rider</name>
+    <subname>motorcycle</subname>
+    <object_id>3</object_id>
+    <bndbox left="545.16" top="401.68" right="558.53" bottom="430.32" />
+    <fitbox>
+      <point x="545.16" y="401.68" />
+      <point x="558.53" y="401.68" />
+      <point x="558.53" y="430.32" />
+      <point x="545.16" y="430.32" />
+    </fitbox>
+  </object>
+  <object>
+    <name>rider</name>
+    <subname>motorcycle</subname>
+    <object_id>1</object_id>
+    <bndbox left="563.13" top="405.44" right="577.87" bottom="425.15" />
+    <fitbox>
+      <point x="563.13" y="405.44" />
+      <point x="577.87" y="405.44" />
+      <point x="577.87" y="425.15" />
+      <point x="563.13" y="425.15" />
+    </fitbox>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>5</object_id>
+    <bndbox left="715.39" top="403.43" right="723.03" bottom="423.56" />
+    <fitbox>
+      <point x="715.39" y="403.43" />
+      <point x="723.03" y="403.43" />
+      <point x="723.03" y="423.56" />
+      <point x="715.39" y="423.56" />
+    </fitbox>
+  </object>
+  <object>
+    <name>rider</name>
+    <subname>scooter</subname>
+    <object_id>2</object_id>
+    <bndbox left="1030.52" top="362.25" right="1148.83" bottom="565.18" />
+    <fitbox>
+      <point x="1030.52" y="362.25" />
+      <point x="1148.83" y="362.25" />
+      <point x="1148.83" y="565.18" />
+      <point x="1030.52" y="565.18" />
+    </fitbox>
+  </object>
+  <object>
+    <name>ignored</name>
+    <subname>ignored_vehicle</subname>
+    <object_id>4</object_id>
+    <bndbox left="0.00" top="435.44" right="25.38" bottom="502.47" />
+    <fitbox>
+      <point x="0.00" y="435.44" />
+      <point x="25.38" y="435.44" />
+      <point x="25.38" y="502.47" />
+      <point x="0.00" y="502.47" />
+    </fitbox>
+  </object>
+</annotation>

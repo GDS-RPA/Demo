@@ -1,0 +1,56 @@
+<annotation version="1.3">
+  <image>sv_nvdx_ar0138_20210514_105459.h265_ch00_021300.jpg</image>
+  <size>
+    <width>1280</width>
+    <height>960</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="371.48" top="339.47" right="407.65" bottom="472.76" />
+    <fitbox>
+      <point x="371.48" y="339.47" />
+      <point x="407.65" y="339.47" />
+      <point x="407.65" y="472.76" />
+      <point x="371.48" y="472.76" />
+    </fitbox>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="326.52" top="367.32" right="368.53" bottom="464.08" />
+    <fitbox>
+      <point x="326.52" y="367.32" />
+      <point x="368.53" y="367.32" />
+      <point x="368.53" y="464.08" />
+      <point x="326.52" y="464.08" />
+    </fitbox>
+  </object>
+  <object>
+    <name>ignored</name>
+    <subname>ignored_vehicle</subname>
+    <object_id>2</object_id>
+    <bndbox left="319.41" top="387.67" right="445.40" bottom="439.03" />
+    <fitbox>
+      <point x="319.41" y="387.67" />
+      <point x="445.40" y="387.67" />
+      <point x="445.40" y="439.03" />
+      <point x="319.41" y="439.03" />
+    </fitbox>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>3</object_id>
+    <bndbox left="537.35" top="395.54" right="547.57" bottom="429.16" />
+    <fitbox>
+      <point x="537.35" y="395.54" />
+      <point x="547.57" y="395.54" />
+      <point x="547.57" y="429.16" />
+      <point x="537.35" y="429.16" />
+    </fitbox>
+  </object>
+</annotation>

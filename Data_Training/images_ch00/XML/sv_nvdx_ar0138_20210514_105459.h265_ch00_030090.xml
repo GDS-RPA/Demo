@@ -1,0 +1,80 @@
+<annotation version="1.3">
+  <image>sv_nvdx_ar0138_20210514_105459.h265_ch00_030090.jpg</image>
+  <size>
+    <width>1280</width>
+    <height>960</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <object>
+    <name>truck</name>
+    <subname>large_truck</subname>
+    <object_id>1</object_id>
+    <bndbox left="236.58" top="329.74" right="546.91" bottom="489.28" />
+    <fitbox>
+      <point x="236.58" y="329.74" />
+      <point x="546.91" y="329.74" />
+      <point x="546.91" y="489.28" />
+      <point x="236.58" y="489.28" />
+    </fitbox>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>pickup_truck</subname>
+    <object_id>2</object_id>
+    <bndbox left="550.67" top="398.63" right="581.90" bottom="426.63" />
+    <fitbox>
+      <point x="550.67" y="398.63" />
+      <point x="581.90" y="398.63" />
+      <point x="581.90" y="426.63" />
+      <point x="550.67" y="426.63" />
+    </fitbox>
+  </object>
+  <object>
+    <name>truck</name>
+    <subname>large_truck_with_cargo</subname>
+    <object_id>3</object_id>
+    <bndbox left="236.57" top="275.96" right="547.21" bottom="489.41" />
+    <fitbox>
+      <point x="236.57" y="275.96" />
+      <point x="547.21" y="275.96" />
+      <point x="547.21" y="489.41" />
+      <point x="236.57" y="489.41" />
+    </fitbox>
+  </object>
+  <object>
+    <name>rider</name>
+    <subname>scooter</subname>
+    <object_id>4</object_id>
+    <bndbox left="768.59" top="379.51" right="819.36" bottom="479.09" />
+    <fitbox>
+      <point x="768.59" y="379.51" />
+      <point x="819.36" y="379.51" />
+      <point x="819.36" y="479.09" />
+      <point x="768.59" y="479.09" />
+    </fitbox>
+  </object>
+  <object>
+    <name>animal</name>
+    <subname>bird</subname>
+    <object_id>5</object_id>
+    <bndbox left="846.54" top="483.37" right="874.47" bottom="522.51" />
+    <fitbox>
+      <point x="846.54" y="483.37" />
+      <point x="874.47" y="483.37" />
+      <point x="874.47" y="522.51" />
+      <point x="846.54" y="522.51" />
+    </fitbox>
+  </object>
+  <object>
+    <name>animal</name>
+    <subname>bird</subname>
+    <object_id>6</object_id>
+    <bndbox left="933.52" top="480.16" right="957.10" bottom="509.92" />
+    <fitbox>
+      <point x="933.52" y="480.16" />
+      <point x="957.10" y="480.16" />
+      <point x="957.10" y="509.92" />
+      <point x="933.52" y="509.92" />
+    </fitbox>
+  </object>
+</annotation>

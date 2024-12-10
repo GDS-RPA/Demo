@@ -1,0 +1,97 @@
+import torch
+from PIL import Image
+import numpy as np
+import matplotlib.pyplot as plt
+import cv2
+import os
+
+# 1. Load Mô Hình YOLO Đã Huấn Luyện
+model = torch.hub.load('ultralytics/yolov5', 'custom', path=r'C:\Users\Admin\Desktop\segment-anything-2\yolov5\yolov5s.pt', force_reload=True)
+model.eval()  # Chuyển mô hình sang chế độ đánh giá
+
+# 2. Hàm Vẽ Bounding Box
+def draw_bounding_boxes(image, boxes, labels, class_name):
+    """
+    Vẽ bounding boxes cho một class cụ thể.
+
+    Args:
+        image (np.ndarray): Ảnh gốc (NumPy array).
+        boxes (np.ndarray): Danh sách bounding boxes.
+        labels (list): Tên các lớp.
+        class_name (str): Tên của class mà bạn muốn vẽ.
+
+    Returns:
+        np.ndarray: Ảnh với bounding boxes.
+    """
+    image_with_boxes = image.copy()
+    for box in boxes:
+        x_min, y_min, x_max, y_max, conf, cls = box
+        label = f'{labels[int(cls)]} {conf:.2f}'
+
+        # Vẽ bounding box
+        cv2.rectangle(
+            image_with_boxes, 
+            (int(x_min), int(y_min)), 
+            (int(x_max), int(y_max)), 
+            (0, 255, 0), 2  # Màu xanh lá
+        )
+        # Thêm nhãn
+        cv2.putText(
+            image_with_boxes, 
+            label, 
+            (int(x_min), int(y_min) - 10), 
+            cv2.FONT_HERSHEY_SIMPLEX, 
+            0.5, 
+            (0, 255, 0), 2
+        )
+    return image_with_boxes
+
+# 3. Lọc Bounding Box cho Class Xác Định
+def filter_boxes_for_class(boxes, labels, class_name):
+    """
+    Lọc bounding boxes cho một class cụ thể.
+
+    Args:
+        boxes (np.ndarray): Danh sách bounding boxes.
+        labels (list): Tên các lớp.
+        class_name (str): Tên của class mà bạn muốn vẽ.
+
+    Returns:
+        list: Danh sách bounding boxes thuộc class chỉ định.
+    """
+    return boxes
+
+# 4. Xử Lý Toàn Bộ Ảnh Trong Thư Mục
+input_folder = r'C:\Users\Admin\Desktop\yolov5\dataset\images\val'  # Thư mục chứa ảnh gốc
+output_folder = r'C:\Users\Admin\Desktop\yolov5\dataset\OutputAnno'  # Thư mục lưu ảnh kết quả
+os.makedirs(output_folder, exist_ok=True)
+
+#class_name = ['sedan', 'van', '3wheels_car', 'car_others', 'pickup_truck'] # Class mà bạn muốn vẽ
+class_name = ['car']
+# Lặp qua từng file trong thư mục
+for file_name in os.listdir(input_folder):
+    # Chỉ xử lý các file ảnh
+    if file_name.lower().endswith(('.jpg', '.jpeg', '.png')):
+        file_path = os.path.join(input_folder, file_name)
+        
+        # Load ảnh
+        image = Image.open(file_path)
+        image_np = np.array(image.convert("RGB"))
+        
+        # Dự đoán bằng YOLO
+        results = model(image_np)
+        boxes = results.xyxy[0].cpu().numpy()  # Chuyển tensor sang CPU trước khi chuyển NumPy
+        labels = results.names  # Tên các lớp
+        
+        # Lọc bounding boxes theo class
+        filtered_boxes = filter_boxes_for_class(boxes, labels, class_name)
+        
+        # Vẽ bounding box lên ảnh
+        image_with_boxes = draw_bounding_boxes(image_np, filtered_boxes, labels, class_name)
+        
+        # Lưu kết quả
+        output_path = os.path.join(output_folder, file_name)
+        cv2.imwrite(output_path, cv2.cvtColor(image_with_boxes, cv2.COLOR_RGB2BGR))
+        print(f"Processed: {file_name} -> Saved to: {output_path}")
+
+print("Done processing all images!")

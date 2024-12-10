@@ -1,0 +1,125 @@
+<annotation version="1.3">
+  <image>GER_TM943_20220609_201819_cam_1.h264_003180.jpg</image>
+  <size>
+    <width>1920</width>
+    <height>1080</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <labeled name="truncation">1.0</labeled>
+  <labeled name="licenseplate">1.0</labeled>
+  <labeled name="occlusion">1.0</labeled>
+  <labeled name="tire">1.0</labeled>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="709.46" top="458.71" right="783.49" bottom="637.93" />
+    <fitbox>
+      <point x="709.46" y="458.71" />
+      <point x="783.49" y="458.71" />
+      <point x="783.49" y="637.93" />
+      <point x="709.46" y="637.93" />
+    </fitbox>
+    <occluded>0.00</occluded>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="635.04" top="445.87" right="709.58" bottom="637.88" />
+    <fitbox>
+      <point x="635.04" y="445.87" />
+      <point x="709.58" y="445.87" />
+      <point x="709.58" y="637.88" />
+      <point x="635.04" y="637.88" />
+    </fitbox>
+    <occluded>0.00</occluded>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="1100.42" top="463.02" right="1226.02" bottom="717.72" />
+    <fitbox>
+      <point x="1100.42" y="463.02" />
+      <point x="1226.02" y="463.02" />
+      <point x="1226.02" y="717.72" />
+      <point x="1100.42" y="717.72" />
+    </fitbox>
+    <occluded>0.00</occluded>
+  </object>
+  <object>
+    <name>rider</name>
+    <subname>bicycle</subname>
+    <object_id>2</object_id>
+    <bndbox left="109.19" top="404.02" right="333.39" bottom="976.81" />
+    <fitbox>
+      <point x="109.19" y="404.02" />
+      <point x="333.39" y="404.02" />
+      <point x="333.39" y="976.81" />
+      <point x="109.19" y="976.81" />
+    </fitbox>
+    <occluded>0.00</occluded>
+  </object>
+  <object>
+    <name>ignored</name>
+    <subname>ignored_vehicle</subname>
+    <object_id>3</object_id>
+    <bndbox left="867.60" top="516.61" right="944.36" bottom="587.23" />
+    <fitbox>
+      <point x="867.60" y="516.61" />
+      <point x="944.36" y="516.61" />
+      <point x="944.36" y="587.23" />
+      <point x="867.60" y="587.23" />
+    </fitbox>
+  </object>
+  <object>
+    <name>ignored</name>
+    <subname>ignored_vehicle</subname>
+    <object_id>4</object_id>
+    <bndbox left="963.74" top="519.12" right="1013.43" bottom="565.64" />
+    <fitbox>
+      <point x="963.74" y="519.12" />
+      <point x="1013.43" y="519.12" />
+      <point x="1013.43" y="565.64" />
+      <point x="963.74" y="565.64" />
+    </fitbox>
+  </object>
+  <object>
+    <name>ignored</name>
+    <subname>ignored_vehicle</subname>
+    <object_id>5</object_id>
+    <bndbox left="824.96" top="527.81" right="924.51" bottom="598.89" />
+    <fitbox>
+      <point x="824.96" y="527.81" />
+      <point x="924.51" y="527.81" />
+      <point x="924.51" y="598.89" />
+      <point x="824.96" y="598.89" />
+    </fitbox>
+  </object>
+  <object>
+    <name>ignored</name>
+    <subname>ignored_vehicle</subname>
+    <object_id>6</object_id>
+    <bndbox left="857.66" top="485.69" right="944.08" bottom="584.94" />
+    <fitbox>
+      <point x="857.66" y="485.69" />
+      <point x="944.08" y="485.69" />
+      <point x="944.08" y="584.94" />
+      <point x="857.66" y="584.94" />
+    </fitbox>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>7</object_id>
+    <bndbox left="972.83" top="518.72" right="1000.58" bottom="571.47" />
+    <fitbox>
+      <point x="972.83" y="518.72" />
+      <point x="1000.58" y="518.72" />
+      <point x="1000.58" y="571.47" />
+      <point x="972.83" y="571.47" />
+    </fitbox>
+    <occluded>0.00</occluded>
+  </object>
+</annotation>

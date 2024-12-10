@@ -1,0 +1,32 @@
+<annotation version="1.3">
+  <image>sv_nvdx_ar0138_20210514_105459.h265_ch00_025650.jpg</image>
+  <size>
+    <width>1280</width>
+    <height>960</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="317.35" top="294.84" right="399.50" bottom="498.60" />
+    <fitbox>
+      <point x="317.35" y="294.84" />
+      <point x="399.50" y="294.84" />
+      <point x="399.50" y="498.60" />
+      <point x="317.35" y="498.60" />
+    </fitbox>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="205.83" top="265.58" right="335.36" bottom="588.39" />
+    <fitbox>
+      <point x="205.83" y="265.58" />
+      <point x="335.36" y="265.58" />
+      <point x="335.36" y="588.39" />
+      <point x="205.83" y="588.39" />
+    </fitbox>
+  </object>
+</annotation>

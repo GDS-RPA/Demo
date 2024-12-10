@@ -1,0 +1,74 @@
+<annotation version="1.3">
+  <image>GER_TM943_20220609_181324_cam_1.h264_000060.jpg</image>
+  <size>
+    <width>1920</width>
+    <height>1080</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <labeled name="truncation">1.0</labeled>
+  <labeled name="tire">1.0</labeled>
+  <labeled name="licenseplate">1.0</labeled>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="477.69" top="459.08" right="571.67" bottom="733.17" />
+    <fitbox>
+      <point x="477.69" y="459.08" />
+      <point x="571.67" y="459.08" />
+      <point x="571.67" y="733.17" />
+      <point x="477.69" y="733.17" />
+    </fitbox>
+  </object>
+  <object>
+    <name>ignored</name>
+    <subname>ignored_rider</subname>
+    <object_id>2</object_id>
+    <bndbox left="531.78" top="560.01" right="702.12" bottom="789.59" />
+    <fitbox>
+      <point x="531.78" y="560.01" />
+      <point x="702.12" y="560.01" />
+      <point x="702.12" y="789.59" />
+      <point x="531.78" y="789.59" />
+    </fitbox>
+  </object>
+  <object>
+    <name>ignored</name>
+    <subname>ignored_rider</subname>
+    <object_id>3</object_id>
+    <bndbox left="662.80" top="572.54" right="848.67" bottom="803.77" />
+    <fitbox>
+      <point x="662.80" y="572.54" />
+      <point x="848.67" y="572.54" />
+      <point x="848.67" y="803.77" />
+      <point x="662.80" y="803.77" />
+    </fitbox>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>van</subname>
+    <object_id>4</object_id>
+    <bndbox left="0.00" top="427.78" right="290.10" bottom="753.84" />
+    <fitbox>
+      <point x="0.00" y="427.78" />
+      <point x="290.10" y="427.78" />
+      <point x="290.10" y="753.84" />
+      <point x="0.00" y="753.84" />
+    </fitbox>
+    <truncated>0.50</truncated>
+    <tire>
+      <innerbox name="wheel_2pt">
+        <point x="3.39" y="638.82" />
+        <point x="37.39" y="750.04" />
+        <middle x="20.39" y="694.43" />
+        <bottom x="26.12" y="749.64" />
+      </innerbox>
+    </tire>
+    <licenseplate>
+      <point x="139.18" y="585.37" index="0" />
+      <point x="140.17" y="605.75" index="1" />
+      <point x="213.18" y="606.94" index="2" />
+      <point x="211.99" y="587.74" index="3" />
+    </licenseplate>
+  </object>
+</annotation>

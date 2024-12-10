@@ -1,0 +1,49 @@
+<annotation version="1.3">
+  <image>GER_TM943_20220609_180824_cam_1.h264_003780.jpg</image>
+  <size>
+    <width>1920</width>
+    <height>1080</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <labeled name="truncation">1.0</labeled>
+  <labeled name="tire">1.0</labeled>
+  <labeled name="licenseplate">1.0</labeled>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>1</object_id>
+    <bndbox left="670.62" top="531.08" right="736.66" bottom="554.93" />
+    <fitbox>
+      <point x="670.62" y="531.08" />
+      <point x="736.66" y="531.08" />
+      <point x="736.66" y="554.93" />
+      <point x="670.62" y="554.93" />
+    </fitbox>
+    <tire>none</tire>
+    <licenseplate>none</licenseplate>
+  </object>
+  <object>
+    <name>rider</name>
+    <subname>bicycle</subname>
+    <object_id>2</object_id>
+    <bndbox left="625.76" top="504.15" right="672.05" bottom="643.69" />
+    <fitbox>
+      <point x="625.76" y="504.15" />
+      <point x="672.05" y="504.15" />
+      <point x="672.05" y="643.69" />
+      <point x="625.76" y="643.69" />
+    </fitbox>
+  </object>
+  <object>
+    <name>ignored</name>
+    <subname>ignored_rider</subname>
+    <object_id>3</object_id>
+    <bndbox left="1893.38" top="554.40" right="1920.00" bottom="682.99" />
+    <fitbox>
+      <point x="1893.38" y="554.40" />
+      <point x="1920.00" y="554.40" />
+      <point x="1920.00" y="682.99" />
+      <point x="1893.38" y="682.99" />
+    </fitbox>
+  </object>
+</annotation>

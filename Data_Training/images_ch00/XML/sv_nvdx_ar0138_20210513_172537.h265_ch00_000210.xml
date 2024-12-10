@@ -1,0 +1,68 @@
+<annotation version="1.3">
+  <image>sv_nvdx_ar0138_20210513_172537.h265_ch00_000210.jpg</image>
+  <size>
+    <width>1280</width>
+    <height>960</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="491.23" top="373.27" right="512.46" bottom="440.24" />
+    <fitbox>
+      <point x="491.23" y="373.27" />
+      <point x="512.46" y="373.27" />
+      <point x="512.46" y="440.24" />
+      <point x="491.23" y="440.24" />
+    </fitbox>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="731.08" top="366.03" right="762.23" bottom="462.17" />
+    <fitbox>
+      <point x="731.08" y="366.03" />
+      <point x="762.23" y="366.03" />
+      <point x="762.23" y="462.17" />
+      <point x="731.08" y="462.17" />
+    </fitbox>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>4</object_id>
+    <bndbox left="568.92" top="382.35" right="721.34" bottom="455.55" />
+    <fitbox>
+      <point x="568.92" y="382.35" />
+      <point x="721.34" y="382.35" />
+      <point x="721.34" y="455.55" />
+      <point x="568.92" y="455.55" />
+    </fitbox>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>2</object_id>
+    <bndbox left="800.15" top="402.59" right="821.32" bottom="446.98" />
+    <fitbox>
+      <point x="800.15" y="402.59" />
+      <point x="821.32" y="402.59" />
+      <point x="821.32" y="446.98" />
+      <point x="800.15" y="446.98" />
+    </fitbox>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>4</object_id>
+    <bndbox left="0.00" top="232.32" right="467.54" bottom="683.97" />
+    <fitbox>
+      <point x="0.00" y="232.32" />
+      <point x="467.54" y="232.32" />
+      <point x="467.54" y="683.97" />
+      <point x="0.00" y="683.97" />
+    </fitbox>
+  </object>
+</annotation>

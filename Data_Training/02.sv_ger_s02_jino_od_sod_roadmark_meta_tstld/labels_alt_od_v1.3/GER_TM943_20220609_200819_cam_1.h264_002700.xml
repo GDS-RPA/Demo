@@ -1,0 +1,38 @@
+<annotation version="1.3">
+  <image>GER_TM943_20220609_200819_cam_1.h264_002700.jpg</image>
+  <size>
+    <width>1920</width>
+    <height>1080</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <labeled name="truncation">1.0</labeled>
+  <labeled name="licenseplate">1.0</labeled>
+  <labeled name="occlusion">1.0</labeled>
+  <labeled name="tire">1.0</labeled>
+  <object>
+    <name>rider</name>
+    <subname>bicycle</subname>
+    <object_id>2</object_id>
+    <bndbox left="1376.43" top="411.48" right="1485.89" bottom="712.61" />
+    <fitbox>
+      <point x="1376.43" y="411.48" />
+      <point x="1485.89" y="411.48" />
+      <point x="1485.89" y="712.61" />
+      <point x="1376.43" y="712.61" />
+    </fitbox>
+    <occluded>0.00</occluded>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>sitting_person</subname>
+    <object_id>1</object_id>
+    <bndbox left="643.19" top="495.37" right="683.65" bottom="570.32" />
+    <fitbox>
+      <point x="643.19" y="495.37" />
+      <point x="683.65" y="495.37" />
+      <point x="683.65" y="570.32" />
+      <point x="643.19" y="570.32" />
+    </fitbox>
+    <occluded>0.50</occluded>
+  </object>
+</annotation>

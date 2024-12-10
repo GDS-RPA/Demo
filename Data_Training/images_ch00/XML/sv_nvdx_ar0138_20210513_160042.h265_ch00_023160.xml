@@ -1,0 +1,68 @@
+<annotation version="1.3">
+  <image>sv_nvdx_ar0138_20210513_160042.h265_ch00_023160.jpg</image>
+  <size>
+    <width>1280</width>
+    <height>960</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>4</object_id>
+    <bndbox left="708.81" top="380.44" right="836.36" bottom="453.97" />
+    <fitbox>
+      <point x="708.81" y="380.44" />
+      <point x="836.36" y="380.44" />
+      <point x="836.36" y="453.97" />
+      <point x="708.81" y="453.97" />
+    </fitbox>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>4</object_id>
+    <bndbox left="810.75" top="311.51" right="1280.00" bottom="640.77" />
+    <fitbox>
+      <point x="810.75" y="311.51" />
+      <point x="1280.00" y="311.51" />
+      <point x="1280.00" y="640.77" />
+      <point x="810.75" y="640.77" />
+    </fitbox>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>1</object_id>
+    <bndbox left="686.36" top="391.50" right="753.14" bottom="438.72" />
+    <fitbox>
+      <point x="686.36" y="391.50" />
+      <point x="753.14" y="391.50" />
+      <point x="753.14" y="438.72" />
+      <point x="686.36" y="438.72" />
+    </fitbox>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>2</object_id>
+    <bndbox left="659.52" top="400.76" right="693.75" bottom="429.17" />
+    <fitbox>
+      <point x="659.52" y="400.76" />
+      <point x="693.75" y="400.76" />
+      <point x="693.75" y="429.17" />
+      <point x="659.52" y="429.17" />
+    </fitbox>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>3</object_id>
+    <bndbox left="646.13" top="404.79" right="652.36" bottom="427.02" />
+    <fitbox>
+      <point x="646.13" y="404.79" />
+      <point x="652.36" y="404.79" />
+      <point x="652.36" y="427.02" />
+      <point x="646.13" y="427.02" />
+    </fitbox>
+  </object>
+</annotation>

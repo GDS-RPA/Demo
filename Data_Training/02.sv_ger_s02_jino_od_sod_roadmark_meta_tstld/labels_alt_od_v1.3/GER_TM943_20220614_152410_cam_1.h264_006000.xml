@@ -1,0 +1,32 @@
+<annotation version="1.3">
+  <image>GER_TM943_20220614_152410_cam_1.h264_006000.jpg</image>
+  <size>
+    <width>1920</width>
+    <height>1080</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <labeled name="truncation">1.0</labeled>
+  <labeled name="licenseplate">1.0</labeled>
+  <labeled name="occlusion">1.0</labeled>
+  <labeled name="tire">1.0</labeled>
+  <object>
+    <name>car</name>
+    <subname>van</subname>
+    <object_id>1</object_id>
+    <bndbox left="487.94" top="357.52" right="799.69" bottom="756.34" />
+    <fitbox>
+      <point x="487.94" y="357.52" />
+      <point x="799.69" y="357.52" />
+      <point x="799.69" y="756.34" />
+      <point x="487.94" y="756.34" />
+    </fitbox>
+    <occluded>0.00</occluded>
+    <licenseplate>
+      <point x="533.00" y="662.00" index="0" />
+      <point x="531.00" y="684.00" index="1" />
+      <point x="616.00" y="685.00" index="2" />
+      <point x="617.00" y="663.00" index="3" />
+    </licenseplate>
+    <tire>none</tire>
+  </object>
+</annotation>

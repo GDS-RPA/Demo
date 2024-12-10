@@ -1,0 +1,4 @@
+train: C:/Users/Admin/Desktop/segment-anything-2/yolov5/dataset/images/train
+val: C:/Users/Admin/Desktop/segment-anything-2/yolov5/dataset/images/val
+nc: 5
+names: ['sedan', 'van', '3wheels_car', 'car_others', 'pickup_truck']

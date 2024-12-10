@@ -1,0 +1,133 @@
+<annotation version="1.3">
+  <image>GER_TM943_20220614_152910_cam_1.h264_007740.jpg</image>
+  <size>
+    <width>1920</width>
+    <height>1080</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <labeled name="truncation">1.0</labeled>
+  <labeled name="licenseplate">1.0</labeled>
+  <labeled name="occlusion">1.0</labeled>
+  <labeled name="tire">1.0</labeled>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>4</object_id>
+    <bndbox left="88.26" top="573.10" right="200.60" bottom="654.38" />
+    <fitbox>
+      <point x="88.26" y="573.10" />
+      <point x="200.60" y="573.10" />
+      <point x="200.60" y="654.38" />
+      <point x="88.26" y="654.38" />
+    </fitbox>
+    <occluded>0.25</occluded>
+    <licenseplate>none</licenseplate>
+    <tire>none</tire>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>4</object_id>
+    <bndbox left="178.65" top="560.22" right="327.71" bottom="664.17" />
+    <fitbox>
+      <point x="178.65" y="560.22" />
+      <point x="327.71" y="560.22" />
+      <point x="327.71" y="664.17" />
+      <point x="178.65" y="664.17" />
+    </fitbox>
+    <occluded>0.50</occluded>
+    <licenseplate>none</licenseplate>
+    <tire>
+      <innerbox name="wheel_ignored">
+        <point x="217.17" y="620.50" />
+        <point x="229.44" y="663.83" />
+      </innerbox>
+      <innerbox name="wheel_ignored">
+        <point x="179.38" y="618.72" />
+        <point x="191.25" y="658.29" />
+      </innerbox>
+    </tire>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="1736.30" top="440.22" right="1809.67" bottom="645.99" />
+    <fitbox>
+      <point x="1736.30" y="440.22" />
+      <point x="1809.67" y="440.22" />
+      <point x="1809.67" y="645.99" />
+      <point x="1736.30" y="645.99" />
+    </fitbox>
+    <occluded>0.00</occluded>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>4</object_id>
+    <bndbox left="66.94" top="570.33" right="147.28" bottom="644.73" />
+    <fitbox>
+      <point x="66.94" y="570.33" />
+      <point x="147.28" y="570.33" />
+      <point x="147.28" y="644.73" />
+      <point x="66.94" y="644.73" />
+    </fitbox>
+    <occluded>0.75</occluded>
+    <licenseplate>none</licenseplate>
+    <tire>none</tire>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>4</object_id>
+    <bndbox left="413.63" top="523.51" right="729.36" bottom="715.61" />
+    <fitbox>
+      <point x="413.63" y="523.51" />
+      <point x="729.36" y="523.51" />
+      <point x="729.36" y="715.61" />
+      <point x="413.63" y="715.61" />
+    </fitbox>
+    <occluded>0.00</occluded>
+    <licenseplate>none</licenseplate>
+    <tire>
+      <innerbox name="wheel_2pt">
+        <point x="529.05" y="645.49" />
+        <point x="562.29" y="712.37" />
+        <middle x="545.67" y="678.93" />
+        <bottom x="543.75" y="711.64" />
+      </innerbox>
+      <innerbox name="wheel_2pt">
+        <point x="419.25" y="636.00" />
+        <point x="445.17" y="695.35" />
+        <middle x="432.21" y="665.68" />
+        <bottom x="431.66" y="694.35" />
+      </innerbox>
+    </tire>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>4</object_id>
+    <bndbox left="282.52" top="548.94" right="468.53" bottom="680.38" />
+    <fitbox>
+      <point x="282.52" y="548.94" />
+      <point x="468.53" y="548.94" />
+      <point x="468.53" y="680.38" />
+      <point x="282.52" y="680.38" />
+    </fitbox>
+    <occluded>0.50</occluded>
+    <licenseplate>none</licenseplate>
+    <tire>
+      <innerbox name="wheel_ignored">
+        <point x="283.92" y="626.92" />
+        <point x="302.52" y="670.45" />
+      </innerbox>
+      <innerbox name="wheel_2pt">
+        <point x="344.07" y="631.87" />
+        <point x="363.85" y="680.34" />
+        <middle x="353.96" y="656.11" />
+        <bottom x="353.96" y="680.34" />
+      </innerbox>
+    </tire>
+  </object>
+</annotation>

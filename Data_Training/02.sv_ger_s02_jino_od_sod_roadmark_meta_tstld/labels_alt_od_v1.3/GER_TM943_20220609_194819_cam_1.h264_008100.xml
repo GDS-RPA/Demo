@@ -1,0 +1,159 @@
+<annotation version="1.3">
+  <image>GER_TM943_20220609_194819_cam_1.h264_008100.jpg</image>
+  <size>
+    <width>1920</width>
+    <height>1080</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <labeled name="truncation">1.0</labeled>
+  <labeled name="licenseplate">1.0</labeled>
+  <labeled name="occlusion">1.0</labeled>
+  <labeled name="tire">1.0</labeled>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>4</object_id>
+    <bndbox left="699.53" top="494.94" right="1248.87" bottom="927.76" />
+    <fitbox>
+      <point x="699.53" y="494.94" />
+      <point x="1248.87" y="494.94" />
+      <point x="1248.87" y="927.76" />
+      <point x="699.53" y="927.76" />
+    </fitbox>
+    <truncated>0.50</truncated>
+    <occluded>0.00</occluded>
+    <licenseplate>
+      <point x="888.00" y="709.00" index="0" />
+      <point x="888.00" y="752.00" index="1" />
+      <point x="1069.00" y="752.00" index="2" />
+      <point x="1069.00" y="709.00" index="3" />
+    </licenseplate>
+    <tire>none</tire>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>4</object_id>
+    <bndbox left="510.82" top="504.47" right="746.95" bottom="697.83" />
+    <fitbox>
+      <point x="510.82" y="504.47" />
+      <point x="746.95" y="504.47" />
+      <point x="746.95" y="697.83" />
+      <point x="510.82" y="697.83" />
+    </fitbox>
+    <truncated>0.50</truncated>
+    <occluded>0.50</occluded>
+    <licenseplate>
+      <point x="555.00" y="631.00" index="0" />
+      <point x="555.00" y="649.00" index="1" />
+      <point x="622.00" y="649.00" index="2" />
+      <point x="622.00" y="631.00" index="3" />
+    </licenseplate>
+    <tire>
+      <innerbox name="wheel_ignored">
+        <point x="697.09" y="623.26" />
+        <point x="713.41" y="697.52" />
+      </innerbox>
+    </tire>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>4</object_id>
+    <bndbox left="227.58" top="508.92" right="486.47" bottom="677.23" />
+    <fitbox>
+      <point x="227.58" y="508.92" />
+      <point x="486.47" y="508.92" />
+      <point x="486.47" y="677.23" />
+      <point x="227.58" y="677.23" />
+    </fitbox>
+    <truncated>0.50</truncated>
+    <occluded>0.75</occluded>
+    <licenseplate>none</licenseplate>
+    <tire>
+      <innerbox name="wheel_ignored">
+        <point x="421.42" y="606.24" />
+        <point x="440.09" y="674.46" />
+      </innerbox>
+    </tire>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>4</object_id>
+    <bndbox left="0.00" top="410.01" right="408.94" bottom="1042.56" />
+    <fitbox>
+      <point x="0.00" y="410.01" />
+      <point x="408.94" y="410.01" />
+      <point x="408.94" y="1042.56" />
+      <point x="0.00" y="1042.56" />
+    </fitbox>
+    <truncated>0.50</truncated>
+    <occluded>0.25</occluded>
+    <licenseplate>none</licenseplate>
+    <tire>
+      <innerbox name="wheel">
+        <point x="1.62" y="812.67" />
+        <point x="88.02" y="1042.56" />
+      </innerbox>
+      <innerbox name="wheel_2pt">
+        <point x="340.46" y="702.98" />
+        <point x="403.57" y="890.06" />
+        <middle x="372.02" y="796.52" />
+        <bottom x="380.28" y="887.56" />
+      </innerbox>
+    </tire>
+  </object>
+  <object>
+    <name>rider</name>
+    <subname>motorcycle</subname>
+    <object_id>3</object_id>
+    <bndbox left="437.70" top="464.44" right="559.34" bottom="739.97" />
+    <fitbox>
+      <point x="437.70" y="464.44" />
+      <point x="559.34" y="464.44" />
+      <point x="559.34" y="739.97" />
+      <point x="437.70" y="739.97" />
+    </fitbox>
+    <occluded>0.00</occluded>
+  </object>
+  <object>
+    <name>ignored</name>
+    <subname>ignored_pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="1601.25" top="504.40" right="1783.86" bottom="783.45" />
+    <fitbox>
+      <point x="1601.25" y="504.40" />
+      <point x="1783.86" y="504.40" />
+      <point x="1783.86" y="783.45" />
+      <point x="1601.25" y="783.45" />
+    </fitbox>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>2</object_id>
+    <bndbox left="1261.41" top="525.78" right="1301.24" bottom="550.57" />
+    <fitbox>
+      <point x="1261.41" y="525.78" />
+      <point x="1301.24" y="525.78" />
+      <point x="1301.24" y="550.57" />
+      <point x="1261.41" y="550.57" />
+    </fitbox>
+    <occluded>0.75</occluded>
+    <licenseplate>none</licenseplate>
+    <tire>none</tire>
+  </object>
+  <object>
+    <name>ignored</name>
+    <subname>ignored_vehicle</subname>
+    <object_id>6</object_id>
+    <bndbox left="620.32" top="500.24" right="767.23" bottom="625.01" />
+    <fitbox>
+      <point x="620.32" y="500.24" />
+      <point x="767.23" y="500.24" />
+      <point x="767.23" y="625.01" />
+      <point x="620.32" y="625.01" />
+    </fitbox>
+  </object>
+</annotation>

@@ -1,0 +1,68 @@
+<annotation version="1.3">
+  <image>sv_nvdx_ar0138_20210514_105459.h265_ch00_029550.jpg</image>
+  <size>
+    <width>1280</width>
+    <height>960</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="371.27" top="384.75" right="396.80" bottom="457.18" />
+    <fitbox>
+      <point x="371.27" y="384.75" />
+      <point x="396.80" y="384.75" />
+      <point x="396.80" y="457.18" />
+      <point x="371.27" y="457.18" />
+    </fitbox>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="408.41" top="386.50" right="429.81" bottom="448.72" />
+    <fitbox>
+      <point x="408.41" y="386.50" />
+      <point x="429.81" y="386.50" />
+      <point x="429.81" y="448.72" />
+      <point x="408.41" y="448.72" />
+    </fitbox>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="586.32" top="278.01" right="654.04" bottom="503.37" />
+    <fitbox>
+      <point x="586.32" y="278.01" />
+      <point x="654.04" y="278.01" />
+      <point x="654.04" y="503.37" />
+      <point x="586.32" y="503.37" />
+    </fitbox>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>4</object_id>
+    <bndbox left="506.98" top="394.57" right="561.62" bottom="434.31" />
+    <fitbox>
+      <point x="506.98" y="394.57" />
+      <point x="561.62" y="394.57" />
+      <point x="561.62" y="434.31" />
+      <point x="506.98" y="434.31" />
+    </fitbox>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>2</object_id>
+    <bndbox left="574.25" top="401.61" right="580.75" bottom="421.49" />
+    <fitbox>
+      <point x="574.25" y="401.61" />
+      <point x="580.75" y="401.61" />
+      <point x="580.75" y="421.49" />
+      <point x="574.25" y="421.49" />
+    </fitbox>
+  </object>
+</annotation>

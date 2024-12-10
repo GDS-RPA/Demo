@@ -1,0 +1,35 @@
+<annotation version="1.3">
+  <image>sv_nvdx_ar0138_20210514_113553.h265_ch00_005910.jpg</image>
+  <size>
+    <width>1280</width>
+    <height>960</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <labeled name="tire">1.0</labeled>
+  <object>
+    <name>truck</name>
+    <subname>small_truck</subname>
+    <object_id>1</object_id>
+    <bndbox left="82.00" top="340.56" right="245.67" bottom="506.70" />
+    <fitbox>
+      <point x="82.00" y="340.56" />
+      <point x="245.67" y="340.56" />
+      <point x="245.67" y="506.70" />
+      <point x="82.00" y="506.70" />
+    </fitbox>
+    <tire>none</tire>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>van</subname>
+    <object_id>2</object_id>
+    <bndbox left="496.89" top="366.30" right="583.23" bottom="440.39" />
+    <fitbox>
+      <point x="496.89" y="366.30" />
+      <point x="583.23" y="366.30" />
+      <point x="583.23" y="440.39" />
+      <point x="496.89" y="440.39" />
+    </fitbox>
+    <tire>none</tire>
+  </object>
+</annotation>

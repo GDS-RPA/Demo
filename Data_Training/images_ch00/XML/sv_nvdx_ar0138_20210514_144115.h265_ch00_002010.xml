@@ -1,0 +1,32 @@
+<annotation version="1.3">
+  <image>sv_nvdx_ar0138_20210514_144115.h265_ch00_002010.jpg</image>
+  <size>
+    <width>1280</width>
+    <height>960</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <object>
+    <name>rider</name>
+    <subname>motorcycle_without_human</subname>
+    <object_id>1</object_id>
+    <bndbox left="890.58" top="355.57" right="1010.23" bottom="523.27" />
+    <fitbox>
+      <point x="890.58" y="355.57" />
+      <point x="1010.23" y="355.57" />
+      <point x="1010.23" y="523.27" />
+      <point x="890.58" y="523.27" />
+    </fitbox>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>2</object_id>
+    <bndbox left="704.14" top="399.36" right="713.49" bottom="427.69" />
+    <fitbox>
+      <point x="704.14" y="399.36" />
+      <point x="713.49" y="399.36" />
+      <point x="713.49" y="427.69" />
+      <point x="704.14" y="427.69" />
+    </fitbox>
+  </object>
+</annotation>

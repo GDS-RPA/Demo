@@ -1,0 +1,32 @@
+<annotation version="1.3">
+  <image>sv_nvdx_ar0138_20210514_105459.h265_ch00_005610.jpg</image>
+  <size>
+    <width>1280</width>
+    <height>960</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="745.46" top="361.71" right="770.73" bottom="450.27" />
+    <fitbox>
+      <point x="745.46" y="361.71" />
+      <point x="770.73" y="361.71" />
+      <point x="770.73" y="450.27" />
+      <point x="745.46" y="450.27" />
+    </fitbox>
+  </object>
+  <object>
+    <name>truck</name>
+    <subname>small_boxcar</subname>
+    <object_id>2</object_id>
+    <bndbox left="676.65" top="334.21" right="774.62" bottom="444.89" />
+    <fitbox>
+      <point x="676.65" y="334.21" />
+      <point x="774.62" y="334.21" />
+      <point x="774.62" y="444.89" />
+      <point x="676.65" y="444.89" />
+    </fitbox>
+  </object>
+</annotation>

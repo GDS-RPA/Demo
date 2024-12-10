@@ -1,0 +1,44 @@
+<annotation version="1.3">
+  <image>sv_nvdx_ar0138_20210514_151224.h265_ch00_011070.jpg</image>
+  <size>
+    <width>1280</width>
+    <height>960</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>1</object_id>
+    <bndbox left="292.18" top="373.75" right="455.58" bottom="432.35" />
+    <fitbox>
+      <point x="292.18" y="373.75" />
+      <point x="455.58" y="373.75" />
+      <point x="455.58" y="432.35" />
+      <point x="292.18" y="432.35" />
+    </fitbox>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>2</object_id>
+    <bndbox left="898.94" top="264.41" right="1279.00" bottom="657.00" />
+    <fitbox>
+      <point x="898.94" y="264.41" />
+      <point x="1279.00" y="264.41" />
+      <point x="1279.00" y="657.00" />
+      <point x="898.94" y="657.00" />
+    </fitbox>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>3</object_id>
+    <bndbox left="695.82" top="337.23" right="899.54" bottom="477.33" />
+    <fitbox>
+      <point x="695.82" y="337.23" />
+      <point x="899.54" y="337.23" />
+      <point x="899.54" y="477.33" />
+      <point x="695.82" y="477.33" />
+    </fitbox>
+  </object>
+</annotation>

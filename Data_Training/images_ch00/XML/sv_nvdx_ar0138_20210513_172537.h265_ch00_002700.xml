@@ -1,0 +1,200 @@
+<annotation version="1.3">
+  <image>sv_nvdx_ar0138_20210513_172537.h265_ch00_002700.jpg</image>
+  <size>
+    <width>1280</width>
+    <height>960</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="1162.05" top="309.84" right="1212.72" bottom="574.98" />
+    <fitbox>
+      <point x="1162.05" y="309.84" />
+      <point x="1212.72" y="309.84" />
+      <point x="1212.72" y="574.98" />
+      <point x="1162.05" y="574.98" />
+    </fitbox>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="831.84" top="349.64" right="887.99" bottom="479.27" />
+    <fitbox>
+      <point x="831.84" y="349.64" />
+      <point x="887.99" y="349.64" />
+      <point x="887.99" y="479.27" />
+      <point x="831.84" y="479.27" />
+    </fitbox>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="385.66" top="323.74" right="437.70" bottom="486.56" />
+    <fitbox>
+      <point x="385.66" y="323.74" />
+      <point x="437.70" y="323.74" />
+      <point x="437.70" y="486.56" />
+      <point x="385.66" y="486.56" />
+    </fitbox>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>4</object_id>
+    <bndbox left="724.74" top="388.24" right="834.02" bottom="453.70" />
+    <fitbox>
+      <point x="724.74" y="388.24" />
+      <point x="834.02" y="388.24" />
+      <point x="834.02" y="453.70" />
+      <point x="724.74" y="453.70" />
+    </fitbox>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>10</object_id>
+    <bndbox left="1008.80" top="414.51" right="1088.20" bottom="457.37" />
+    <fitbox>
+      <point x="1008.80" y="414.51" />
+      <point x="1088.20" y="414.51" />
+      <point x="1088.20" y="457.37" />
+      <point x="1008.80" y="457.37" />
+    </fitbox>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="1199.43" top="257.00" right="1280.00" bottom="650.07" />
+    <fitbox>
+      <point x="1199.43" y="257.00" />
+      <point x="1280.00" y="257.00" />
+      <point x="1280.00" y="650.07" />
+      <point x="1199.43" y="650.07" />
+    </fitbox>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>10</object_id>
+    <bndbox left="682.63" top="394.59" right="696.15" bottom="432.34" />
+    <fitbox>
+      <point x="682.63" y="394.59" />
+      <point x="696.15" y="394.59" />
+      <point x="696.15" y="432.34" />
+      <point x="682.63" y="432.34" />
+    </fitbox>
+  </object>
+  <object>
+    <name>ignored</name>
+    <subname>ignored_vehicle</subname>
+    <object_id>10</object_id>
+    <bndbox left="703.34" top="392.77" right="766.22" bottom="437.08" />
+    <fitbox>
+      <point x="703.34" y="392.77" />
+      <point x="766.22" y="392.77" />
+      <point x="766.22" y="437.08" />
+      <point x="703.34" y="437.08" />
+    </fitbox>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>10</object_id>
+    <bndbox left="939.37" top="410.41" right="1006.44" bottom="446.71" />
+    <fitbox>
+      <point x="939.37" y="410.41" />
+      <point x="1006.44" y="410.41" />
+      <point x="1006.44" y="446.71" />
+      <point x="939.37" y="446.71" />
+    </fitbox>
+  </object>
+  <object>
+    <name>ignored</name>
+    <subname>ignored_vehicle</subname>
+    <object_id>10</object_id>
+    <bndbox left="827.80" top="379.63" right="975.70" bottom="452.35" />
+    <fitbox>
+      <point x="827.80" y="379.63" />
+      <point x="975.70" y="379.63" />
+      <point x="975.70" y="452.35" />
+      <point x="827.80" y="452.35" />
+    </fitbox>
+  </object>
+  <object>
+    <name>ignored</name>
+    <subname>ignored_vehicle</subname>
+    <object_id>10</object_id>
+    <bndbox left="692.85" top="395.38" right="735.95" bottom="430.91" />
+    <fitbox>
+      <point x="692.85" y="395.38" />
+      <point x="735.95" y="395.38" />
+      <point x="735.95" y="430.91" />
+      <point x="692.85" y="430.91" />
+    </fitbox>
+  </object>
+  <object>
+    <name>ignored</name>
+    <subname>ignored_vehicle</subname>
+    <object_id>10</object_id>
+    <bndbox left="916.95" top="388.96" right="947.35" bottom="460.01" />
+    <fitbox>
+      <point x="916.95" y="388.96" />
+      <point x="947.35" y="388.96" />
+      <point x="947.35" y="460.01" />
+      <point x="916.95" y="460.01" />
+    </fitbox>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>10</object_id>
+    <bndbox left="600.66" top="396.49" right="612.10" bottom="426.06" />
+    <fitbox>
+      <point x="600.66" y="396.49" />
+      <point x="612.10" y="396.49" />
+      <point x="612.10" y="426.06" />
+      <point x="600.66" y="426.06" />
+    </fitbox>
+  </object>
+  <object>
+    <name>ignored</name>
+    <subname>ignored_vehicle</subname>
+    <object_id>10</object_id>
+    <bndbox left="1045.99" top="420.53" right="1120.87" bottom="461.87" />
+    <fitbox>
+      <point x="1045.99" y="420.53" />
+      <point x="1120.87" y="420.53" />
+      <point x="1120.87" y="461.87" />
+      <point x="1045.99" y="461.87" />
+    </fitbox>
+  </object>
+  <object>
+    <name>rider</name>
+    <subname>scooter</subname>
+    <object_id>11</object_id>
+    <bndbox left="508.80" top="395.04" right="526.66" bottom="436.40" />
+    <fitbox>
+      <point x="508.80" y="395.04" />
+      <point x="526.66" y="395.04" />
+      <point x="526.66" y="436.40" />
+      <point x="508.80" y="436.40" />
+    </fitbox>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>sitting_person</subname>
+    <object_id>12</object_id>
+    <bndbox left="549.35" top="382.72" right="573.24" bottom="417.32" />
+    <fitbox>
+      <point x="549.35" y="382.72" />
+      <point x="573.24" y="382.72" />
+      <point x="573.24" y="417.32" />
+      <point x="549.35" y="417.32" />
+    </fitbox>
+  </object>
+</annotation>

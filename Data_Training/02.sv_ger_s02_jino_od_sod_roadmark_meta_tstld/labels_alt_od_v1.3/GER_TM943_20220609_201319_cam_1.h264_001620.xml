@@ -1,0 +1,40 @@
+<annotation version="1.3">
+  <image>GER_TM943_20220609_201319_cam_1.h264_001620.jpg</image>
+  <size>
+    <width>1920</width>
+    <height>1080</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <labeled name="truncation">1.0</labeled>
+  <labeled name="licenseplate">1.0</labeled>
+  <labeled name="occlusion">1.0</labeled>
+  <labeled name="tire">1.0</labeled>
+  <object>
+    <name>bus</name>
+    <subname>bus</subname>
+    <object_id>1</object_id>
+    <bndbox left="903.36" top="449.28" right="1023.72" bottom="589.43" />
+    <fitbox>
+      <point x="903.36" y="449.28" />
+      <point x="1023.72" y="449.28" />
+      <point x="1023.72" y="589.43" />
+      <point x="903.36" y="589.43" />
+    </fitbox>
+    <occluded>0.00</occluded>
+    <licenseplate>none</licenseplate>
+    <tire>none</tire>
+  </object>
+  <object>
+    <name>rider</name>
+    <subname>bicycle</subname>
+    <object_id>2</object_id>
+    <bndbox left="1078.08" top="497.46" right="1114.15" bottom="583.15" />
+    <fitbox>
+      <point x="1078.08" y="497.46" />
+      <point x="1114.15" y="497.46" />
+      <point x="1114.15" y="583.15" />
+      <point x="1078.08" y="583.15" />
+    </fitbox>
+    <occluded>0.00</occluded>
+  </object>
+</annotation>

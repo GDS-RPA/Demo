@@ -1,0 +1,44 @@
+<annotation version="1.3">
+  <image>sv_nvdx_ar0138_20210514_132735.h265_ch00_007590.jpg</image>
+  <size>
+    <width>1280</width>
+    <height>960</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="67.82" top="324.54" right="148.45" bottom="546.78" />
+    <fitbox>
+      <point x="67.82" y="324.54" />
+      <point x="148.45" y="324.54" />
+      <point x="148.45" y="546.78" />
+      <point x="67.82" y="546.78" />
+    </fitbox>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="456.84" top="371.62" right="480.66" bottom="442.72" />
+    <fitbox>
+      <point x="456.84" y="371.62" />
+      <point x="480.66" y="371.62" />
+      <point x="480.66" y="442.72" />
+      <point x="456.84" y="442.72" />
+    </fitbox>
+  </object>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>2</object_id>
+    <bndbox left="664.46" top="394.30" right="676.16" bottom="425.86" />
+    <fitbox>
+      <point x="664.46" y="394.30" />
+      <point x="676.16" y="394.30" />
+      <point x="676.16" y="425.86" />
+      <point x="664.46" y="425.86" />
+    </fitbox>
+  </object>
+</annotation>

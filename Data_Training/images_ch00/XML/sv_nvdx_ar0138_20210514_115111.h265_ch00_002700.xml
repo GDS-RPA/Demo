@@ -1,0 +1,60 @@
+<annotation version="1.3">
+  <image>sv_nvdx_ar0138_20210514_115111.h265_ch00_002700.jpg</image>
+  <size>
+    <width>1280</width>
+    <height>960</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <labeled name="tire">1.0</labeled>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="651.33" top="392.28" right="663.70" bottom="431.28" />
+    <fitbox>
+      <point x="651.33" y="392.28" />
+      <point x="663.70" y="392.28" />
+      <point x="663.70" y="431.28" />
+      <point x="651.33" y="431.28" />
+    </fitbox>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>3</object_id>
+    <bndbox left="717.08" top="346.98" right="941.59" bottom="483.33" />
+    <fitbox>
+      <point x="717.08" y="346.98" />
+      <point x="941.59" y="346.98" />
+      <point x="941.59" y="483.33" />
+      <point x="717.08" y="483.33" />
+    </fitbox>
+    <tire>
+      <innerbox name="wheel_2pt">
+        <point x="786.24" y="420.05" />
+        <point x="823.24" y="479.02" />
+        <middle x="799.73" y="449.54" />
+        <bottom x="796.25" y="476.50" />
+      </innerbox>
+      <innerbox name="wheel_2pt">
+        <point x="719.65" y="415.26" />
+        <point x="740.54" y="453.78" />
+        <middle x="725.74" y="434.52" />
+        <bottom x="724.44" y="453.43" />
+      </innerbox>
+    </tire>
+  </object>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>2</object_id>
+    <bndbox left="532.89" top="399.91" right="564.91" bottom="424.99" />
+    <fitbox>
+      <point x="532.89" y="399.91" />
+      <point x="564.91" y="399.91" />
+      <point x="564.91" y="424.99" />
+      <point x="532.89" y="424.99" />
+    </fitbox>
+    <tire>none</tire>
+  </object>
+</annotation>

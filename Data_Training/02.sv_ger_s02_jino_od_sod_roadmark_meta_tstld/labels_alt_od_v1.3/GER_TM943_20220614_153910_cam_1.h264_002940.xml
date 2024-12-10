@@ -1,0 +1,82 @@
+<annotation version="1.3">
+  <image>GER_TM943_20220614_153910_cam_1.h264_002940.jpg</image>
+  <size>
+    <width>1920</width>
+    <height>1080</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <labeled name="truncation">1.0</labeled>
+  <labeled name="licenseplate">1.0</labeled>
+  <labeled name="occlusion">1.0</labeled>
+  <labeled name="tire">1.0</labeled>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>1</object_id>
+    <bndbox left="1595.41" top="526.11" right="1852.09" bottom="643.14" />
+    <fitbox>
+      <point x="1595.41" y="526.11" />
+      <point x="1852.09" y="526.11" />
+      <point x="1852.09" y="643.14" />
+      <point x="1595.41" y="643.14" />
+    </fitbox>
+    <occluded>0.00</occluded>
+    <licenseplate>
+      <point x="1615.00" y="606.00" index="0" />
+      <point x="1615.00" y="616.00" index="1" />
+      <point x="1646.00" y="616.00" index="2" />
+      <point x="1646.00" y="606.00" index="3" />
+    </licenseplate>
+    <tire>
+      <innerbox name="wheel_2pt">
+        <point x="1700.60" y="593.92" />
+        <point x="1729.49" y="642.59" />
+        <middle x="1715.05" y="618.26" />
+        <bottom x="1715.05" y="642.59" />
+      </innerbox>
+      <innerbox name="wheel_2pt">
+        <point x="1817.13" y="589.77" />
+        <point x="1839.69" y="631.71" />
+        <middle x="1828.41" y="610.74" />
+        <bottom x="1828.41" y="631.71" />
+      </innerbox>
+    </tire>
+  </object>
+  <object>
+    <name>truck</name>
+    <subname>large_boxcar</subname>
+    <object_id>2</object_id>
+    <bndbox left="1854.69" top="511.13" right="1920.00" bottom="623.14" />
+    <fitbox>
+      <point x="1854.69" y="511.13" />
+      <point x="1920.00" y="511.13" />
+      <point x="1920.00" y="623.14" />
+      <point x="1854.69" y="623.14" />
+    </fitbox>
+    <truncated>0.50</truncated>
+    <occluded>0.00</occluded>
+    <licenseplate>none</licenseplate>
+    <tire>none</tire>
+  </object>
+  <object>
+    <name>trailer</name>
+    <subname>trailer_others</subname>
+    <object_id>3</object_id>
+    <bndbox left="986.10" top="460.68" right="1248.09" bottom="686.67" />
+    <fitbox>
+      <point x="986.10" y="460.68" />
+      <point x="1248.09" y="460.68" />
+      <point x="1248.09" y="686.67" />
+      <point x="986.10" y="686.67" />
+    </fitbox>
+    <licenseplate>none</licenseplate>
+    <tire>
+      <innerbox name="wheel_2pt">
+        <point x="1152.87" y="630.61" />
+        <point x="1200.51" y="686.63" />
+        <middle x="1176.69" y="658.62" />
+        <bottom x="1176.69" y="686.63" />
+      </innerbox>
+    </tire>
+  </object>
+</annotation>

@@ -1,0 +1,64 @@
+<annotation version="1.3">
+  <image>GER_TM943_20220609_183324_cam_1.h264_002640.jpg</image>
+  <size>
+    <width>1920</width>
+    <height>1080</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <labeled name="truncation">1.0</labeled>
+  <labeled name="occlusion">1.0</labeled>
+  <labeled name="licenseplate">1.0</labeled>
+  <labeled name="tire">1.0</labeled>
+  <object>
+    <name>pedestrian</name>
+    <subname>pedestrian</subname>
+    <object_id>1</object_id>
+    <bndbox left="457.51" top="470.47" right="511.88" bottom="668.79" />
+    <fitbox>
+      <point x="457.51" y="470.47" />
+      <point x="511.88" y="470.47" />
+      <point x="511.88" y="668.79" />
+      <point x="457.51" y="668.79" />
+    </fitbox>
+    <occluded>0.25</occluded>
+  </object>
+  <object>
+    <name>bus</name>
+    <subname>bus</subname>
+    <object_id>2</object_id>
+    <bndbox left="678.34" top="205.71" right="1920.00" bottom="727.47" />
+    <fitbox>
+      <point x="678.34" y="205.71" />
+      <point x="1920.00" y="205.71" />
+      <point x="1920.00" y="727.47" />
+      <point x="678.34" y="727.47" />
+    </fitbox>
+    <truncated>0.25</truncated>
+    <occluded>0.00</occluded>
+    <licenseplate>none</licenseplate>
+    <tire>
+      <innerbox name="wheel_2pt">
+        <point x="1011.42" y="571.76" />
+        <point x="1168.44" y="727.28" />
+        <middle x="1089.93" y="649.52" />
+        <bottom x="1089.93" y="727.28" />
+      </innerbox>
+      <innerbox name="wheel_ignored">
+        <point x="1892.90" y="582.01" />
+        <point x="1920.00" y="701.26" />
+      </innerbox>
+    </tire>
+  </object>
+  <object>
+    <name>ignored</name>
+    <subname>ignored_rider</subname>
+    <object_id>3</object_id>
+    <bndbox left="163.41" top="532.82" right="296.69" bottom="651.79" />
+    <fitbox>
+      <point x="163.41" y="532.82" />
+      <point x="296.69" y="532.82" />
+      <point x="296.69" y="651.79" />
+      <point x="163.41" y="651.79" />
+    </fitbox>
+  </object>
+</annotation>

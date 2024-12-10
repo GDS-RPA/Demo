@@ -1,0 +1,74 @@
+<annotation version="1.3">
+  <image>GER_TM943_20220609_202820_cam_1.h264_006720.jpg</image>
+  <size>
+    <width>1920</width>
+    <height>1080</height>
+  </size>
+  <labeled name="od">1.3</labeled>
+  <labeled name="truncation">1.0</labeled>
+  <labeled name="licenseplate">1.0</labeled>
+  <labeled name="occlusion">1.0</labeled>
+  <labeled name="tire">1.0</labeled>
+  <object>
+    <name>car</name>
+    <subname>sedan</subname>
+    <object_id>1</object_id>
+    <bndbox left="222.07" top="537.17" right="563.07" bottom="693.32" />
+    <fitbox>
+      <point x="222.07" y="537.17" />
+      <point x="563.07" y="537.17" />
+      <point x="563.07" y="693.32" />
+      <point x="222.07" y="693.32" />
+    </fitbox>
+    <occluded>0.25</occluded>
+    <licenseplate>none</licenseplate>
+    <tire>
+      <innerbox name="wheel_2pt">
+        <point x="387.54" y="622.42" />
+        <point x="433.75" y="693.28" />
+        <middle x="410.65" y="657.85" />
+        <bottom x="410.65" y="693.28" />
+      </innerbox>
+      <innerbox name="wheel">
+        <point x="225.23" y="614.76" />
+        <point x="265.69" y="681.05" />
+      </innerbox>
+    </tire>
+  </object>
+  <object>
+    <name>ignored</name>
+    <subname>ignored_vehicle</subname>
+    <object_id>2</object_id>
+    <bndbox left="1457.17" top="507.35" right="1876.97" bottom="666.55" />
+    <fitbox>
+      <point x="1457.17" y="507.35" />
+      <point x="1876.97" y="507.35" />
+      <point x="1876.97" y="666.55" />
+      <point x="1457.17" y="666.55" />
+    </fitbox>
+  </object>
+  <object>
+    <name>ignored</name>
+    <subname>ignored_vehicle</subname>
+    <object_id>3</object_id>
+    <bndbox left="1467.14" top="517.50" right="1904.09" bottom="650.02" />
+    <fitbox>
+      <point x="1467.14" y="517.50" />
+      <point x="1904.09" y="517.50" />
+      <point x="1904.09" y="650.02" />
+      <point x="1467.14" y="650.02" />
+    </fitbox>
+  </object>
+  <object>
+    <name>ignored</name>
+    <subname>ignored_vehicle</subname>
+    <object_id>4</object_id>
+    <bndbox left="1762.87" top="510.83" right="1920.00" bottom="604.90" />
+    <fitbox>
+      <point x="1762.87" y="510.83" />
+      <point x="1920.00" y="510.83" />
+      <point x="1920.00" y="604.90" />
+      <point x="1762.87" y="604.90" />
+    </fitbox>
+  </object>
+</annotation>
